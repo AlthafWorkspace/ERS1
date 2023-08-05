@@ -45,7 +45,7 @@ app.use(session({
     },
     store: new MongoStore(
         {
-            mongoUrl: 'mongodb+srv://althaf114:yFDzlSpuOM9MIAxN@cluster0.qaqly3a.mongodb.net', // Use the MongoDB URL here
+            mongoUrl: 'mongodb+srv://whiteWolff:praduman@cluster0.an8uy3k.mongodb.net/ERS?retryWrites=true&w=majority', // Use the MongoDB URL here
             mongoOptions: {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
