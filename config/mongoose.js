@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 // mongoose.connect('mongodb://0.0.0.0/employeReviewSystem');
-const DB = 'mongodb://localhost/ERS'
+const DB = 'mongodb+srv://althaf114:yFDzlSpuOM9MIAxN@cluster0.qaqly3a.mongodb.net'
 
 // These set of line can be written in async await fashion, but I have followed the documentation. 
 mongoose.connect(DB).then(()=>{
