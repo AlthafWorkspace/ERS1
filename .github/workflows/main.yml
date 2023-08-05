@@ -12,7 +12,7 @@ jobs:
         - uses: actions/checkout@v2
 
         - name: Setup Node
-            uses: actions/setup-node@v2-beta
+            uses: npm install
             with:
             node-version: '12'
 
